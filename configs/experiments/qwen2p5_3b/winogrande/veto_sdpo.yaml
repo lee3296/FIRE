@@ -1,0 +1,10 @@
+_base_:
+- ../../../base.yaml
+- ../../../models/qwen2p5_3b.yaml
+- ../../../datasets/winogrande.yaml
+- ../../../tuning/qwen2p5_3b/winogrande.yaml
+- ../../../contexts/sdpo_feedback.yaml
+- ../../../methods/veto.yaml
+experiment:
+  name: veto_sdpo_qwen2p5_3b_winogrande
+  method: veto

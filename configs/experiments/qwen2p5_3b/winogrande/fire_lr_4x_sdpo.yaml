@@ -1,0 +1,13 @@
+_base_:
+- ../../../base.yaml
+- ../../../models/qwen2p5_3b.yaml
+- ../../../datasets/winogrande.yaml
+- ../../../tuning/qwen2p5_3b/winogrande.yaml
+- ../../../contexts/sdpo_feedback.yaml
+- ../../../methods/fire.yaml
+experiment:
+  name: fire_lr_4x_sdpo_qwen2p5_3b_winogrande
+  method: fire
+optimizer:
+  lr: 1.6e-05
+  nominal_lr: 5.0e-07

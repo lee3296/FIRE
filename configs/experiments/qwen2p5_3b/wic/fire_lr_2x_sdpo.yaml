@@ -1,0 +1,13 @@
+_base_:
+- ../../../base.yaml
+- ../../../models/qwen2p5_3b.yaml
+- ../../../datasets/wic.yaml
+- ../../../tuning/qwen2p5_3b/wic.yaml
+- ../../../contexts/sdpo_feedback.yaml
+- ../../../methods/fire.yaml
+experiment:
+  name: fire_lr_2x_sdpo_qwen2p5_3b_wic
+  method: fire
+optimizer:
+  lr: 2.0e-06
+  nominal_lr: 5.0e-08

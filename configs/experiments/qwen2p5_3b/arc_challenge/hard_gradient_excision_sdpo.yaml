@@ -1,0 +1,10 @@
+_base_:
+- ../../../base.yaml
+- ../../../models/qwen2p5_3b.yaml
+- ../../../datasets/arc_challenge.yaml
+- ../../../tuning/qwen2p5_3b/arc_challenge.yaml
+- ../../../contexts/sdpo_feedback.yaml
+- ../../../methods/hard_gradient_excision.yaml
+experiment:
+  name: hard_gradient_excision_sdpo_qwen2p5_3b_arc_challenge
+  method: hard_gradient_excision

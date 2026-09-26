@@ -1,0 +1,13 @@
+_base_:
+- ../../../base.yaml
+- ../../../models/qwen2p5_1p5b.yaml
+- ../../../datasets/aqua_rat.yaml
+- ../../../tuning/qwen2p5_1p5b/aqua_rat.yaml
+- ../../../contexts/sdpo_feedback.yaml
+- ../../../methods/fire.yaml
+experiment:
+  name: fire_lr_0p5x_sdpo_qwen2p5_1p5b_aqua_rat
+  method: fire
+optimizer:
+  lr: 1.0e-06
+  nominal_lr: 1.0e-8

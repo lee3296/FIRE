@@ -1,0 +1,10 @@
+_base_:
+- ../../../base.yaml
+- ../../../models/qwen2p5_1p5b.yaml
+- ../../../datasets/gsm8k.yaml
+- ../../../tuning/qwen2p5_1p5b/gsm8k.yaml
+- ../../../contexts/sdpo_feedback.yaml
+- ../../../methods/on_policy_sft.yaml
+experiment:
+  name: on_policy_sft_sdpo_qwen2p5_1p5b_gsm8k
+  method: on_policy_sft

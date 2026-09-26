@@ -1,0 +1,10 @@
+_base_:
+- ../../../base.yaml
+- ../../../models/qwen2p5_1p5b.yaml
+- ../../../datasets/aqua_rat.yaml
+- ../../../tuning/qwen2p5_1p5b/aqua_rat.yaml
+- ../../../contexts/sdpo_feedback.yaml
+- ../../../methods/fire_no_projection.yaml
+experiment:
+  name: fire_no_projection_sdpo_qwen2p5_1p5b_aqua_rat
+  method: fire_no_projection

@@ -1,0 +1,10 @@
+_base_:
+- ../../../base.yaml
+- ../../../models/qwen2p5_1p5b.yaml
+- ../../../datasets/asdiv.yaml
+- ../../../tuning/qwen2p5_1p5b/asdiv.yaml
+- ../../../contexts/sdpo_feedback.yaml
+- ../../../methods/scope.yaml
+experiment:
+  name: scope_sdpo_qwen2p5_1p5b_asdiv
+  method: scope
