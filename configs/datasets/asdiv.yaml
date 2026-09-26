@@ -1,0 +1,6 @@
+data:
+  adapter: asdiv
+  train_split: train
+  eval_split: test
+  train_limit: 1600
+  eval_limit: 400

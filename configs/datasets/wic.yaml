@@ -1,0 +1,7 @@
+data:
+  adapter: wic
+  train_split: train
+  eval_split: validation
+  train_limit: 2048
+  eval_limit: 256
+  min_eval_examples: 256

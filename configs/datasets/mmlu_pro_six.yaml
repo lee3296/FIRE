@@ -1,0 +1,7 @@
+data:
+  adapter: mmlu_pro_six
+  train_split: train
+  eval_split: validation
+  train_limit: 1536
+  eval_limit: 288
+  min_eval_examples: 288

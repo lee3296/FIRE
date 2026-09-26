@@ -1,0 +1,5 @@
+context:
+  type: sdpo_feedback
+  num_blocks: 4
+  order_mode: native
+  native_field_order: [verifier_result, parser_record, verifier_provenance, response_format]
