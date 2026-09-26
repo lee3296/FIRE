@@ -1,4 +1,4 @@
-# FIRE: Supplementary Code
+# FIRE: Fisher-Informed Recalibration of Feedback-based On-Policy Self-Distillation of LLMs
 
 This package contains the training and evaluation implementation, experiment
 configurations, and dependencies for FIRE and its comparison methods.
