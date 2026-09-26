@@ -1,0 +1,12 @@
+experiment:
+  name: srpo
+  method: srpo
+train:
+  micro_batch_size: 2
+  gradient_accumulation_steps: 4
+srpo:
+  group_size: 4
+  entropy_beta: 1.0
+  clip_epsilon: 0.2
+  ratio_clip: 2.0
+  advantage_eps: 1.0e-6

@@ -1,0 +1,4 @@
+model:
+  name_or_path: Qwen/Qwen2.5-14B-Instruct
+  short_name: qwen2p5_14b
+  load_in_4bit: true

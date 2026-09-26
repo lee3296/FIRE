@@ -1,0 +1,8 @@
+experiment:
+  name: demopsd
+  method: demopsd
+correctness_routing:
+  enabled: false
+demopsd:
+  alpha_max: 0.15
+  beta: 50.0

@@ -1,0 +1,12 @@
+experiment:
+  name: fire_no_attribution
+  method: fire_no_attribution
+correctness_routing:
+  enabled: true
+  correct_action: sft
+  incorrect_action: distill
+  normalize_over_eligible: false
+fire:
+  weighting: excess_l2_energy
+  step_normalized: true
+  project_correct_sft: true

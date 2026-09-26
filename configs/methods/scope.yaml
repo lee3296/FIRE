@@ -1,0 +1,12 @@
+experiment:
+  name: scope
+  method: scope
+correctness_routing:
+  enabled: false
+train:
+  micro_batch_size: 2
+  gradient_accumulation_steps: 4
+scope:
+  group_size: 4
+  weight_temperature: 1.0
+  score_chunk_size: 2

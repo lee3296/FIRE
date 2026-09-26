@@ -1,0 +1,11 @@
+experiment:
+  name: on_policy_sft
+  method: on_policy_sft
+correctness_routing:
+  enabled: false
+generation:
+  temperature: 1.0
+  top_p: 0.95
+on_policy_sft:
+  group_size: 2
+  length_limit: 384

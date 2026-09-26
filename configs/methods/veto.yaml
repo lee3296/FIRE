@@ -1,0 +1,9 @@
+experiment:
+  name: veto
+  method: veto
+correctness_routing:
+  enabled: false
+veto:
+  beta_start: 0.8
+  beta_end: 0.0
+  objective: forward_kl

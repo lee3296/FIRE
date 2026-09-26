@@ -1,0 +1,11 @@
+experiment:
+  name: hard_gradient_excision
+  method: hard_gradient_excision
+correctness_routing:
+  enabled: true
+  correct_action: sft
+  incorrect_action: distill
+  normalize_over_eligible: false
+fire:
+  step_normalized: true
+  project_correct_sft: true

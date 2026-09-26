@@ -1,0 +1,23 @@
+optimizer:
+  lr: 4.0e-06
+  nominal_lr: 4.0e-06
+  schedule: cosine
+  warmup_steps: 20
+ema:
+  alpha: 0.01
+sequence:
+  max_context_tokens: 2560
+  max_new_tokens: 320
+generation:
+  max_new_tokens: 320
+  drop_unfinished_rollouts: true
+routing:
+  candidate_chunk_blocks: 2
+train:
+  max_steps: 200
+  micro_batch_size: 8
+  gradient_accumulation_steps: 1
+eval:
+  batch_size: 8
+  every_steps: 25
+  task_examples: 192

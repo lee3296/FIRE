@@ -1,0 +1,18 @@
+optimizer:
+  lr: 2.0e-6
+  nominal_lr: 2.0e-6
+ema:
+  alpha: 0.03
+sequence:
+  max_context_tokens: 3072
+  max_new_tokens: 512
+generation:
+  max_new_tokens: 512
+routing:
+  candidate_chunk_blocks: 2
+train:
+  max_steps: 250
+  micro_batch_size: 8
+  gradient_accumulation_steps: 1
+eval:
+  batch_size: 8

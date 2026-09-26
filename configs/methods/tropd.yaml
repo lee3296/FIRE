@@ -1,0 +1,15 @@
+experiment:
+  name: tropd
+  method: tropd
+correctness_routing:
+  enabled: false
+train:
+  micro_batch_size: 2
+  gradient_accumulation_steps: 4
+tropd:
+  group_size: 4
+  top_k: 64
+  guidance_beta: 0.001
+  off_policy_guidance: true
+  max_prefix_tokens: 384
+  score_chunk_size: 1

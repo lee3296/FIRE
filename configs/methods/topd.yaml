@@ -1,0 +1,18 @@
+experiment:
+  name: topd
+  method: topd
+
+correctness_routing:
+  enabled: false
+train:
+  micro_batch_size: 2
+  gradient_accumulation_steps: 4
+topd:
+  group_size: 4
+  alpha: 0.2
+  clip_epsilon: 0.2
+  advantage_eps: 1.0e-6
+  score_chunk_size: 2
+  minibatch_prompts: 1
+  off_policy_epochs: 1
+  shuffle_minibatches: true
