@@ -1,0 +1,14 @@
+# Core ML stack. CUDA is required for the supplied training configurations.
+torch>=2.1
+transformers>=4.44
+peft>=0.11
+datasets>=2.20
+accelerate>=0.33
+
+# NF4 base weights for the 14B experiments.
+bitsandbytes>=0.43 ; platform_system == "Linux"
+
+# Configuration and metrics.
+numpy>=1.24
+PyYAML>=6.0
+huggingface_hub>=0.35.0,<2.0
