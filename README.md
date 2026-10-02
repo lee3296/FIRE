@@ -103,3 +103,18 @@ routing diagnostics where applicable, with per-category accuracy for MMLU-Pro.
 Checkpoints are disabled by default. With `--set output.save_checkpoints=true`,
 each evaluation saves the student adapter, tokenizer, and EMA metadata under
 `checkpoints/step_<step>/` within the run directory.
+
+---
+
+## Citation
+
+If you find this repository useful, please consider citing our paper:
+
+```bibtex
+@article{lee2026fisher,
+  title={Fisher-Informed Recalibration for Feedback-Based On-Policy Self-Distillation of LLMs},
+  author={Lee, Seohyun and Han, Dong-Jun and Hosseinalipour, Seyyedali and Brinton, Christopher G},
+  journal={arXiv preprint arXiv:2609.34009},
+  year={2026}
+}
+```
